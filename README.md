@@ -4,17 +4,17 @@
 
 ## 安装到另一台电脑
 
-私有仓库需要该电脑能够访问本仓库。完成 GitHub 登录或配置 Git 凭据后，在 Codex 中提出：
+本仓库为公开仓库。在另一台电脑的 Codex 中提出：
 
 ```text
-请使用 skill-installer，从 GitHub 仓库 <owner>/international-macro-biweekly 的根目录安装这个 Skill。
+请使用 skill-installer，从 GitHub 仓库 gongruyin0730/cangcang 的根目录安装这个 Skill，名称设为 international-macro-biweekly。
 ```
 
 也可以在本机执行 Codex 内置安装脚本：
 
 ```bash
 python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo <owner>/international-macro-biweekly \
+  --repo gongruyin0730/cangcang \
   --path . \
   --name international-macro-biweekly
 ```
