@@ -1,0 +1,7 @@
+interface:
+  display_name: "国际宏观资讯双周报"
+  short_description: "检索重大国别宏观新闻并生成双周报告文档和来源复核清单"
+  default_prompt: "使用 $international-macro-biweekly 整理指定国家和日期区间的重要宏观资讯并生成双周报。"
+
+policy:
+  allow_implicit_invocation: true
